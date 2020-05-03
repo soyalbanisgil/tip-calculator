@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <h2>Tip Calculator</h2>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container contenido">
+            <div class="calculator animated slideInLeft delay-1s">
+                <h3>Please fill the form to calculate tip.</h3>
+
+            <form id="calculate">
+                <div>
+                    <label>How much was the bill amount?</label>
+                    <input id="billAmount" type="number" placeholder="Bill amount">
+                </div>
+                <div>
+                    <label>Select the quality of the service</label>
+                    <select id="serviceQual">
+                        <option value="0.3">30&#37; &#45; Outstanding</option>
+                        <option value="0.2">20&#37; &#45; Good</option>
+                        <option value="0.15">15&#37; &#45; It was OK</option>
+                        <option value="0.1">10&#37; &#45; Bad</option>
+                        <option value="0.05">5&#37; &#45; Terrible</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>How many people are sharing the bill?</label>
+                    <input id="pplNum" type="number" placeholder="Number of people">
+                </div>
+
+                <button class="btn" type="submit">CALCULATE</button>
+
+                <div id="total"></div>
+
+            </form>
+            </div>
+            <div class="description animated slideInRight delay-1s">
+                <h1>What is this about?</h1>
+                <p>This is am HTML, CSS and JavaScript Practice that I've decided to do.</p>
+                <p>A personal project that allows me to practice responsive design for simple web apps and develop simple JavaScript functions.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

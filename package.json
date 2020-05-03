@@ -1,0 +1,11 @@
+{
+  "name": "tip-calculator",
+  "version": "1.0.0",
+  "description": "A simple tip calculator",
+  "main": "app.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.sass:style.css"
+  },
+  "author": "Karen Gil",
+  "license": "ISC"
+}
